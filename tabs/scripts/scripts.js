@@ -1,5 +1,8 @@
 /*eslint-env browser*/
 
 $(document).ready(function(){
-    $("#tabs").tabs();
+    $("#tabs").tabs({
+        collapsible:true,
+        event:"mouseover"
+    });
 });
